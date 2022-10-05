@@ -1,0 +1,30 @@
+.header{
+    margin-top: 20px;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+div:nth-child(1){
+    flex-basis: 10%;
+}
+div:nth-child(2){
+    flex-basis: 30%;
+}
+div:nth-child(3){
+    flex-basis: 10%;
+}
+div:nth-child(4){
+    flex-basis: 10%;
+}
+div:nth-child(5){
+    flex-basis: 10%;
+}
+div:nth-child(6){
+    flex-basis: 30%;
+    display: flex;
+
+    justify-content: end;
+}
+

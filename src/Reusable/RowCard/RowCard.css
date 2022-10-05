@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom:5px ;
+    border-bottom: 1px solid gray;
+}
+div:nth-child(1){
+    flex-basis: 10%;
+}
+div:nth-child(2){
+    flex-basis: 30%;
+}
+div:nth-child(3){
+    flex-basis: 10%;
+}
+div:nth-child(4){
+    flex-basis: 10%;
+}
+div:nth-child(5){
+    flex-basis: 10%;
+}
+div:nth-child(6){
+    flex-basis: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
